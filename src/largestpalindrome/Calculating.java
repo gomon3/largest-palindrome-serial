@@ -27,7 +27,7 @@ public class Calculating {
         return cad.equals(inverted);
     }
     
-    public long getLargestPalindrome(){
+    public long getLargestPalindrome() throws Exception {
         int start = 100;
         int until = 999;
         
@@ -49,6 +49,9 @@ public class Calculating {
             }
         }
         
+        if(largestPalindrome == -1000000000)
+            throw new Exception("No se encontró ningún palíndromo");
+        
         return largestPalindrome;
     }
     
@@ -58,13 +61,13 @@ public class Calculating {
 
     public void setN(long n) throws Exception {
         
-        if(n<1000000){
+        if(n>101101 && n<1000000){
             
             this.n = n;
             
         }else{
             
-            throw new Exception("N debe ser menor que 1 Millon");
+            throw new Exception("N debe ser mayor que 101101 y menor que 1 Millon");
             
         }
         

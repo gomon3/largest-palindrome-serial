@@ -23,7 +23,7 @@ public class CalculatingTest {
     public void before(){
         try{
             
-            long n = 800000;
+            long n = 101102;
             c = new Calculating(n);
             
         }catch(Exception e){
@@ -52,7 +52,11 @@ public class CalculatingTest {
     
     @Test
     public void getLargestPalindromeTest(){
-        assertEquals(793397, c.getLargestPalindrome());
+        try{
+            assertEquals(101101, c.getLargestPalindrome());   
+        }catch(Exception e){
+            fail(e.getMessage());
+        }
     }
     
     // TODO add test methods here.
