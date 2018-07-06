@@ -36,6 +36,21 @@ Para ejecutarlo
 - Una vez presionado el botón podrás interactuar con el programa como está encerrado en el cuadro rojo
 ![](https://github.com/gomon3/largest-palindrome-serial/blob/master/7.png)
 
+¿Deseas ejecutar el programa sin clonar el proyecto con NetBeans?
+-------------
+
+No te preocupes, no necesitas clonar el proyecto, sigue los siguientes pasos:
+- Dirígete a los releases del repositorio, ahí encontrarás una versión final llamada "LargestPalindrome.jar"
+- Descárgala o presiona [aquí](https://github.com/gomon3/largest-palindrome-serial/releases/download/v1.0/LargestPalindrome.jar) para empezar a descargarla
+- Una vez descargada ejecuta los siguientes comandos:
+
+```sh
+$ cd ruta_del_archivo_jar
+$ java -jar LargestPalindrome.java
+```
+Después de haber agregado esos comandos el programa deberá empezar a ejecutar, recuerda que debes tener instalada la máquina virtual de java y tener en el PATH de java en el equipo.
+
+
 
 
 Recomendaciones
